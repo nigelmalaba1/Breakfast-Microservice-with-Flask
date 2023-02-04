@@ -4,6 +4,10 @@
 # Cloud Continuous Delivery of Flask Microservice 
 Breakfast Menu Web App using Flask Microservice
 
+AWS App Runner Default Domain:
+
+(https://ku934wgxji.us-east-1.awsapprunner.com)
+
 ## Project Summary 
 
 in this project, I created a Microservice app in Flask and configured a Build System to Deploy changes. 
@@ -25,7 +29,7 @@ Run the app: `python3 app.py`
 
 1. Git Clone: `https://github.com/nigelmalaba1/Breakfast-Microservice-with-Flask.git`
 
-2. `docker build -t myflaskmicroservice.`
+2. `docker build -t myflaskmicroservice .`
 
 3. `docker run -p 8080:8080 myflaskmicroservice`
 

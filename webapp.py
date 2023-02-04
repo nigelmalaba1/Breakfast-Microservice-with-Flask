@@ -6,7 +6,8 @@ app = Flask(__name__)
 # creating a dummy database of users for demonstration purposes
 users = {
     "user1": "password1",
-    "user2": "password2"
+    "user2": "password2",
+    "user3": "password3"
 }
 
 # routes for handling the login and logout pages
@@ -43,7 +44,7 @@ fruits = ["Apple", "Banana", "Orange", "Grape",
           "Strawberry", "Blueberry", "Raspberry"]
 
 # create a list of beverages
-beverages = ["Coffee", "Tea", "Milk", "Water", "Juice"]
+beverages = ["Coffee", "Tea", "Milk", "Water", "Juice", "Smoothie"]
 
 
 """def choose_random_item_without_repeating(array1):
@@ -99,19 +100,19 @@ def caffein():
 def weekend(day):
     # loop through the days of the week and print out the day of the week and the breakfast item for that day of the week
     if day == "Monday":
-        return "On " + days[0] + ". Your breakfast will be " + breakfast[0] + " and " + fruits[0]
+        return "On " + days[0] + ". Your breakfast will be " + breakfast[0] + " with " + beverages[0] + " and an " + fruits[0]
     if day == "Tuesday":
-        return "On " + days[1] + ". Your breakfast is " + breakfast[1] + " and" + fruits[1]
+        return "On " + days[1] + ". Your breakfast is " + breakfast[1] + " with " + beverages[1] + " and " + fruits[1]
     if day == "Wednesday":
-        return "On " + days[2] + ". Your breakfast is " + breakfast[2] + " and " + fruits[2]
+        return "On " + days[2] + ". Your breakfast is " + breakfast[2] + " with " + beverages[2] + " and " + fruits[2]
     if day == "Thursday":
-        return "On " + days[3] + ". Your breakfast is " + breakfast[3] + " and " + fruits[3]
+        return "On " + days[3] + ". Your breakfast is " + breakfast[3]  + " with " + beverages[3] + " and " + fruits[3]
     if day == "Friday":
-        return "On " + days[4] + ". Your breakfast is " + breakfast[4] + " and " + fruits[4]
+        return "On " + days[4] + ". Your breakfast is " + breakfast[4]  + " with " + beverages[4] + " and " + fruits[4]
     if day == "Saturday":
-        return "On " + days[5] + ". Your breakfast is " + breakfast[5] + " and " + fruits[5]
+        return "On " + days[5] + ". Your breakfast is " + breakfast[5]  + " with a " + beverages[5] + " and " + fruits[5]
     else:
-        return "It's oatmeal today! You didn't specify what you want so I'm giving you oatmeal."
+        return "You can have anything you want!"
 
 
 if __name__ == "__main__":
