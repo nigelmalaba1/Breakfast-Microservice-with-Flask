@@ -1,6 +1,6 @@
 import random
 import datetime
-from flask import Flask, request, redirect, render_template, send_file
+from flask import Flask, request, redirect, render_template
 app = Flask(__name__)
 
 # creating a dummy database of users for demonstration purposes
