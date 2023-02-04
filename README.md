@@ -29,6 +29,8 @@ Run the app: 'python3 app.py'
 
 'docker run -p 8080:8080 myflaskmicroservice'
 
+Test the Flask microservice by accessing it in a web browser at '(http://localhost:8080)'
+
 # Architecture Diagram 
 
 +-----------------------+         +---------------+
