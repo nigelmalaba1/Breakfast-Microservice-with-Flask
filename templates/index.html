@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #eaeaea;
+        font-family: Arial, sans-serif;
+      }
+      
+      .container {
+        width: 500px;
+        margin: 100px auto;
+        background-color: white;
+        padding: 40px;
+        box-shadow: 0 0 10px #aaa;
+        border-radius: 10px;
+      }
+      
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #aaa;
+      }
+      
+      input[type="submit"] {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+        border-radius: 10px;
+        background-color: green;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <body>
+        <div class="container">
+        <h1>Login Page</h1>
+        <form action="/login" method="post">
+            <p>Username: <input type="text" name="username"></p>
+            <p>Password: <input type="password" name="password"></p>
+            <p><input type="submit" value="Login"></p>
+        </form>
+        <p>{{ message }}</p>
+    </div>
+    </body>
+</html>
+  </body>
+</html>
+
+
+
+
+   
