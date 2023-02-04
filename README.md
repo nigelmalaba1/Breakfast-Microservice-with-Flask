@@ -1,5 +1,5 @@
 # WebApp
-Simple Login Page using Flask Microservice
+Web App with Login Page using Flask Microservice to recommend a breakfast menu
 
 Create virtualenv: python3 -m venv <name_of_virtual_environment>
 
