@@ -2,7 +2,7 @@
 
 try:
     import unittest
-    from breakfast import app
+    from webapp import app
 
 except Exception as e:
     print("Some modules are missing {}".format(e))
