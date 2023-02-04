@@ -15,24 +15,25 @@ This microservice generates a nutritious breakfast menu according to the user's 
 
 ## Command Line Steps
 
-Create virtualenv 'python3 -m venv <name_of_virtual_environment>'
+Create virtualenv `python3 -m venv <name_of_virtual_environment>`
 
-Install: Run 'make install'
+Install: Run `make install`
 
-Run the app: 'python3 app.py'
+Run the app: `python3 app.py`
 
 ## Docker Commands
 
-'https://github.com/nigelmalaba1/Breakfast-Microservice-with-Flask.git'
+1. Git Clone: `https://github.com/nigelmalaba1/Breakfast-Microservice-with-Flask.git`
 
-'docker build -t myflaskmicroservice .'
+2. `docker build -t myflaskmicroservice.`
 
-'docker run -p 8080:8080 myflaskmicroservice'
+3. `docker run -p 8080:8080 myflaskmicroservice`
 
-Test the Flask microservice by accessing it in a web browser at '(http://localhost:8080)'
+4. Test the Flask microservice by accessing it in a web browser at `(http://localhost:8080)`
 
 # Architecture Diagram 
 
+!
 +-----------------------+         +---------------+
 |                       |         |               |
 |   Github Codespaces|           | AWS App Runner|
