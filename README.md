@@ -37,43 +37,7 @@ Run the app: `python3 app.py`
 
 # Architecture Diagram 
 
-!
-+-----------------------+         +---------------+
-|                       |         |               |
-|   Github Codespaces|           | AWS App Runner|
-|                       |         |               |
-+-----------------------+         +---------------+
-      |                                           |
-      |                                           |
-      |   Push code changes to Git Repository     |
-      |-------------------------------------------|
-      |                                           |
-      |                                           |
-+-----------------------+         +---------------+
-|                       |         |               |
-|     Git Repository    |         |     AWS EC2   |
-|                       |         |  Instance     |
-+-----------------------+         +---------------+
-      |                                           |
-      |                                           |
-      |   Code changes trigger App Runner         |
-      |   deployment pipeline                      |
-      |-------------------------------------------|
-      |                                           |
-      |                                           |
-+-----------------------+         +---------------+
-|                       |         |               |
-|   Flask Microservice  |         |     Nginx     |
-|   deployed on EC2     |         |    Reverse    |
-|                       |         |    Proxy      |
-+-----------------------+         +---------------+
-      |                                           |
-      |                                           |
-      |   Web Application with Login Page         |
-      |   served to end-users                     |
-      |                                           |
-      +------------------------------------------------
-
+![Blank diagram (1)](https://user-images.githubusercontent.com/123284219/217413980-3af7e0d9-ad16-407f-b8b3-b4b30a7d5395.jpeg)
 
 
 
