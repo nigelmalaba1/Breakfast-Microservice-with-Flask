@@ -70,6 +70,7 @@ Improve the UI of the login and welcome pages.
 ![Blank diagram (1)](https://user-images.githubusercontent.com/123284219/217413980-3af7e0d9-ad16-407f-b8b3-b4b30a7d5395.jpeg)
 
 
-![websequence1](https://user-images.githubusercontent.com/123284219/224525004-831989e6-b34e-426d-933a-685c7dae9af8.jpeg)
+![websequence1](https://user-images.githubusercontent.com/123284219/224525073-462e0d20-731e-4464-af78-9471d97c9476.jpeg)
+
 
 
