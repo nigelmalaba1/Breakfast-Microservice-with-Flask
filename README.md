@@ -8,22 +8,52 @@ AWS App Runner Default Domain:
 
 (https://ku934wgxji.us-east-1.awsapprunner.com)
 
-## Project Summary 
 
-in this project, I created a Microservice app in Flask and configured a Build System to Deploy changes. 
-
-I used IaC *(Infrastructure as Code)* to deploy code in AWS App Runner.
+# Flask Breakfast Microservice
+A Flask microservice that suggests breakfast items for each day of the week based on user input. This microservice is hosted on AWS App Runner, and it's built on Codespaces using Python.
 
 This microservice generates a nutritious breakfast menu according to the user's inputs. The service will suggest appropriate food options considering factors such as the user's level of fatigue and the day of the week, for example if the user is tired, the microservie will recommend coffee and other items that will help the user becoem more focused throughout the day. The goal of the microservice is to eliminate the need to make a daily breakfast decision and free up the user's time and energy for more important matters.
 
+# Routes
+## Login
 
-## Command Line Steps
+This microservice has a login page, where users can input their username and password. If the credentials are correct, the user is redirected to the welcome page. Otherwise, an error message is displayed.
+
+## Welcome
+This page is displayed when the user successfully logs in. It serves no other purpose.
+
+## Root
+If the user goes to the root path /breakfast, a function returns a string with one breakfast item, one day of the week, one fruit, and one beverage.
+
+## Dontrepeat
+If the user goes to the /breakfast/dontrepeat path, a function returns a string with two breakfast items, without repeating any of the previous suggestions.
+
+## Tired
+If the user goes to the /breakfast/tired path, a function returns a string with one breakfast item and one beverage, suitable for someone who is tired.
+
+## Day of the Week
+If the user goes to the /breakfast/<day> path, a function returns a string with a breakfast item, a fruit, and a beverage, suitable for that specific day of the week. On Saturdays, the function suggests the user can eat anything they want. On Sundays, the function suggests the user eat some fruits before the start of the week. On all other days, the function suggests the user eat oatmeal.
+
+# How to Run
 
 Create virtualenv `python3 -m venv <name_of_virtual_environment>`
 
+Clone this repository.
+
+Install Python, Flask, and the required dependencies.
+
 Install: Run `make install`
 
-Run the app: `python3 app.py`
+Run `python3 app.py`.
+
+Access the microservice at http://localhost:5000.
+
+# Future Improvements
+
+Add the option for users to suggest their own breakfast items.
+Create a database to store user preferences and suggest more personalized breakfast items.
+Improve the UI of the login and welcome pages.
+
 
 ## Docker Commands
 
