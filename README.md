@@ -46,13 +46,7 @@ Install: Run `make install`
 
 Run `python3 app.py`.
 
-Access the microservice at http://localhost:5000.
-
-# Future Improvements
-
-Add the option for users to suggest their own breakfast items.
-Create a database to store user preferences and suggest more personalized breakfast items.
-Improve the UI of the login and welcome pages.
+Access the microservice at http://localhost:8080.
 
 
 ## Docker Commands
@@ -73,4 +67,8 @@ Improve the UI of the login and welcome pages.
 ![websequence1](https://user-images.githubusercontent.com/123284219/224525073-462e0d20-731e-4464-af78-9471d97c9476.jpeg)
 
 
+# Future Improvements
 
+Add the option for users to suggest their own breakfast items.
+Create a database to store user preferences and suggest more personalized breakfast items.
+Improve the UI of the login and welcome pages.
