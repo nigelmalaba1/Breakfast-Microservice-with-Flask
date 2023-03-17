@@ -2,7 +2,7 @@
 
 
 # Cloud Continuous Delivery of Flask Microservice 
-Breakfast Menu Web App using Flask Microservice 
+Breakfast Menu Web App using Flask Microservice
 
 AWS App Runner Default Domain:
 
